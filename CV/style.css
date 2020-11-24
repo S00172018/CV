@@ -1,0 +1,112 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+/*Title*/
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header {
+  padding: 45px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightcyan;
+    display:inline-block;
+    background-color: lightcyan;
+}
+
+table {
+    display: inline-block;
+}
+/*columns for skills section*/
+.column {
+    float:none;
+    width: 15%;
+    display: inline-block;
+    vertical-align:text-top;
+    padding: 10px;
+}
+/*Format images*/
+img {
+    height 80%;
+    width: 80%;
+}
+
+.skills:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+    bottom: 0;
+    height: 2em;
+    left: 0;
+    position: static;
+    width:100%;
+}
+
+.objective {
+    width: 50%;
+    display:inline-block;
+}
+
+.interests {
+    text-align: left;
+    align-content: center;
+    display: inline-block;
+}
+/*Format Navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*Remove line breaks between each list item for Nav*/
+li {
+  display: inline;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Format tables for Experience / Education*/
+table {
+    background-color: azure;
+    border-style: groove;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td, th {
+    padding: 15px;
+}
